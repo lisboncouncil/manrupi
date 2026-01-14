@@ -1,0 +1,46 @@
+[%
+
+email_columns = 2;
+
+PROCESS '_email_settings.html';
+
+INCLUDE '_email_top.html';
+
+%]
+
+<th style="[% td_style %][% primary_column_style %]" id="primary_column">
+  [% start_padded_box | safe %]
+  <h1 style="[% h1_style %]">Jūsų pranešimas buvo moderuotas</h1>
+[% IF types == 'hide' -%]
+  <p style="[% p_style %]">Ataskaita buvo paslėpta iš svetainės.</p>
+[% ELSE %]
+  <p style="[% p_style %]">Buvo pakeisti šie duomenys: <strong>[% types %]</strong></p>
+  <p style="margin: 20px auto; text-align: center">
+    <a style="[% button_style %]" href="[% report_uri | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]">Peržiūrėti mano pranešimą</a>
+  </p>
+[% END -%]
+  <p style="[% p_style %]">Jei manote, kad šis pranešimas neturėjo būti moderuojamas, galite susisiekti su
+komanda adresu <a href="[% report_complain_uri | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]">[% report_complain_uri | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]</a></p>
+  [% end_padded_box | safe %]
+  <br>
+  [% start_padded_box | safe %]
+  <h2 style="[% h2_style %]; text-align:center;">*** English ***</h2>
+  <h1 style="[% h1_style %]">Your report has been moderated</h1>
+[% IF types == 'hide' -%]
+  <p style="[% p_style %]">The report has been hidden from the site.</p>
+[% ELSE %]
+  <p style="[% p_style %]">The following data has been changed: <strong>[% types %]</strong></p>
+  <p style="margin: 20px auto; text-align: center">
+    <a style="[% button_style %]" href="[% report_uri | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]">View my report</a>
+  </p>
+[% END -%]
+  <p style="[% p_style %]">If you do not think that this report should have been moderated, you may contact
+the team at <a href="[% report_complain_uri | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]">[% report_complain_uri | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]</a></p>
+  [% end_padded_box | safe %]
+</th>
+[% WRAPPER '_email_sidebar.html' object = problem %]
+    <h2 style="[% h2_style %]">[% moderated_data.title | html %]</h2>
+    <p style="[% secondary_p_style %]">[% moderated_data.detail | html %]</p>
+[% END %]
+
+[% INCLUDE '_email_bottom.html' %]
