@@ -1,0 +1,76 @@
+Subject: [% site_name %]: Jūsų pranešimas buvo moderuotas / Your report has been moderated
+
+Sveiki [% user.name %],
+
+Jūsų pranešimas apie [% site_name %] buvo moderuotas.
+
+[% IF types == 'hide' -%]
+Ataskaita buvo paslėpta iš svetainės.
+[% ELSE %]
+Buvo pakeisti šie duomenys:
+
+	[% types %]
+
+[% END -%]
+
+Jūsų ataskaitos pavadinimas buvo:
+
+[% moderated_data.title %]
+
+Ir detalės:
+
+[% moderated_data.detail %]
+
+[% UNLESS types == 'hide' %]
+Ataskaitą galite peržiūrėti adresu [% report_uri | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]
+[% END %]
+
+Jei manote, kad šis pranešimas neturėjo būti moderuojamas, galite susisiekti su
+komanda adresu [% report_complain_uri | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]
+
+Dėkojame už pranešimą, pateiktą per [% site_name %].
+
+
+Viso gero,
+[% site_name %] komanda
+
+Šis el. laiškas buvo išsiųstas automatiškai iš automatinės el. pašto paskyros, todėl į jį neatsakykite.
+
+
+*** ENGLISH ***
+
+Hello [% user.name %],
+
+Your report on [% site_name %] has been moderated.
+
+[% IF types == 'hide' -%]
+The report has been hidden from the site.
+[% ELSE %]
+The following data has been changed:
+
+	[% types %]
+
+[% END -%]
+
+Your report had the title:
+
+[% moderated_data.title %]
+
+And details:
+
+[% moderated_data.detail %]
+
+[% UNLESS types == 'hide' %]
+You can see the report at [% report_uri | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]
+[% END %]
+
+If you do not think that this report should have been moderated, you may contact
+the team at [% report_complain_uri | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]
+
+Thank you for submitting a report through [% site_name %].
+
+
+[% signature %]
+
+This email was sent automatically, from an unmonitored email account - so
+please do not reply to it.
