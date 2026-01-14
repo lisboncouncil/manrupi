@@ -1,6 +1,5 @@
 [%
 
-email_summary = [% site_name %] paskyros informacija / Your [% site_name %] account details;
 email_columns = 1;
 
 PROCESS '_email_settings.html';
@@ -10,10 +9,10 @@ INCLUDE '_email_top.html';
 %]
 
 <th style="[% td_style %][% only_column_style %]">
-  <h1 style="[% h1_style %]">Dėkojame, kad naudojatės [% site_name %]</h1>
+    <h1 style="[% h1_style %]">Dėkojame, kad naudojatės [% site_name %]</h1>
   <p style="[% p_style %]">Spustelėkite toliau esančią nuorodą, kad patvirtintumėte savo el. pašto adresą ir prisijunkite prie [% site_name %].</p>
   <p style="margin: 20px auto; text-align: center">
-    <a style="[% button_style %]" href="[% url | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]">Taip, tai mano adresas</a>
+    <a style="[% button_style %]" href="[% c.uri_for_action( 'auth/token', token ) | replace('://man', '://lt.man') | replace('://en.man', '://lt.man') %]">Taip, tai mano adresas</a>
   </p>
   <p style="[% p_style %]">
     [% IF c.get_param('r').match('waste') %]
@@ -26,7 +25,7 @@ INCLUDE '_email_top.html';
   <h1 style="[% h1_style %]">Thanks for using [% site_name %]</h1>
   <p style="[% p_style %]">Please click on the link below to confirm your email address and log into [% site_name %].</p>
   <p style="margin: 20px auto; text-align: center">
-    <a style="[% button_style %]" href="[% url | | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]">Yes, this is my address</a>
+    <a style="[% button_style %]" href="[% c.uri_for_action( 'auth/token', token ) | replace('://man', '://en.man') | replace('://lt.man', '://en.man') %]">Yes, this is my address</a>
   </p>
   <p style="[% p_style %]">
     [% IF c.get_param('r').match('waste') %]
