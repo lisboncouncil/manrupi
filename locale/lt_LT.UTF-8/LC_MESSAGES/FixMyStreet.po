@@ -523,7 +523,7 @@ msgstr ""
 
 #: templates/web/base/my/anonymize.html:20
 msgid "Alternatively, we can hide your name on <strong>all of your reports and updates</strong> across the site:"
-msgstr ""
+msgstr "Arba galime paslėpti jūsų vardą ir pavardę <strong>visose jūsų ataskaitose ir atnaujinimuose</strong> visoje svetainėje:"
 
 #: templates/web/base/admin/bodies/open311-form-fields.html:165
 msgid "Always fetch all problems"
@@ -2252,7 +2252,7 @@ msgstr ""
 #: templates/web/zurich/admin/users/form.html:38
 #, fuzzy
 msgid "Hide all reports and updates"
-msgstr "Flagged reports and users"
+msgstr "Paslėpti visus pranešimus ir atnaujinimus"
 
 #: templates/web/base/report/_main.html:108
 msgid "Hide entire report"
@@ -2262,21 +2262,21 @@ msgstr "Paslėpti visą pranešimą"
 #: templates/web/base/my/anonymize.html:2
 #, fuzzy
 msgid "Hide my name"
-msgstr "Atnaujino {{name}}"
+msgstr "Paslėpti mano vardą"
 
 #: templates/web/base/my/anonymize.html:21
 msgid "Hide my name everywhere"
-msgstr ""
+msgstr "Paslėpti mano vardą visur"
 
 #: templates/web/base/my/anonymize.html:10
 #, fuzzy
 msgid "Hide my name in this update"
-msgstr "Koreguoti atnaujinimą"
+msgstr "Paslėpti mano vardą šiame atnaujinime"
 
 #: templates/web/base/my/anonymize.html:16
 #, fuzzy
 msgid "Hide my name on this report"
-msgstr "Paslėpti visą pranešimą"
+msgstr "Paslėpti mano vardą šiame pranešime"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:71
@@ -2287,7 +2287,7 @@ msgstr "Paslėpti smeigtukus"
 #: templates/web/base/admin/bodies/contact-form.html:95
 #, fuzzy
 msgid "Hide reports made in this category"
-msgstr "Pranešta kategorijoje %s"
+msgstr "Paslėpti šioje kategorijoje pateiktus pranešimus"
 
 #: templates/web/base/report/update.html:18
 msgid "Hide update completely?"
@@ -2298,7 +2298,7 @@ msgstr "Pilnai paslėpti atnaujinimą?"
 #: templates/web/fixmystreet.com/report/_report_meta_info.html:6
 #, fuzzy
 msgid "Hide your name?"
-msgstr "Jūsų vardas ir pavardė"
+msgstr "Paslėpti savo vardą?"
 
 #: templates/web/base/admin/bodies/category.html:25
 msgid "History"
@@ -6918,16 +6918,16 @@ msgstr "Jūsų vardas ir pavardė"
 
 #: templates/web/base/my/anonymize.html:13
 msgid "Your name has already been sent to %s, but we can hide it on this page:"
-msgstr ""
+msgstr "Jūsų vardas ir pavardė jau buvo nusiųsti %s, bet mes galime juos paslėpti šioje puslapyje:"
 
 #: perllib/FixMyStreet/App/Controller/My.pm:368
 msgid "Your name has been hidden from all your reports and updates."
-msgstr ""
+msgstr "Jūsų vardas ir pavardė buvo paslėpti iš visų jūsų ataskaitų ir atnaujinimų."
 
 #: perllib/FixMyStreet/App/Controller/My.pm:364
 #, fuzzy
 msgid "Your name has been hidden."
-msgstr "Tavo saugumo kodas sugeneruotas"
+msgstr "Jūsų vardas ir pavardė buvo paslėpti."
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:92
