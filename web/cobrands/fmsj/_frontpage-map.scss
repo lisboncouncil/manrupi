@@ -1,0 +1,40 @@
+// Front page dynamic map styles
+
+// Prevent mappage #map_box absolute positioning on frontpage
+body.frontpage #map_box {
+    position: relative !important;
+    height: 400px !important;
+    width: 100% !important;
+    top: auto !important;
+    bottom: auto !important;
+    left: auto !important;
+    right: auto !important;
+    margin: 0 0 1em 0 !important;
+    z-index: 1 !important;
+}
+
+body.frontpage #map {
+    position: relative !important;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+body.frontpage #map_sidebar,
+body.frontpage .shadow-wrap:not(.static) {
+    display: none !important;
+}
+
+// Hide extra controls on frontpage map
+body.frontpage .map-links,
+body.frontpage .sub-map-links,
+body.frontpage .map-instructions {
+    display: none !important;
+}
+
+body.frontpage #map_box .olControlAttribution {
+    position: absolute !important;
+    bottom: 5px !important;
+    right: 5px !important;
+    left: auto !important;
+    z-index: 5 !important;
+}

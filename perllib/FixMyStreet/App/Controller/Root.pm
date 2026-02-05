@@ -82,6 +82,9 @@ sub index : Path : Args(0) {
         $c->detach;
     }
 
+    # Aggiungi dati mappa per home page (se il cobrand lo supporta)
+    $c->cobrand->call_hook('front_page_data', $c);
+
     $c->forward('/auth/get_csrf_token');
 }
 
