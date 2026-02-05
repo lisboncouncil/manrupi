@@ -17,6 +17,22 @@ IF bodyclass.match('frontpage');
         version('/js/geolocation.js'),
         version('/js/loading-attribute-polyfill.js'),
     );
+    # Carica script mappa se presente nella home page
+    IF map;
+        scripts.push(
+            version('/vendor/jquery-3.6.0.min.js'),
+        );
+        FOR script IN map_js.merge(c.cobrand.call_hook('map_js_extra'));
+            IF script.match('^/');
+                scripts.push(version(script));
+            ELSE;
+                scripts.push(script);
+            END;
+        END;
+        scripts.push(
+            version('/cobrands/fixmystreet/map.js'),
+        );
+    END;
 ELSIF bodyclass.match('alertpage');
     scripts.push(
         version('/js/geolocation.js'),

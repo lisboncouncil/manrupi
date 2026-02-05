@@ -12,11 +12,17 @@
         [% END -%]
     </h2>
 
-    <div class="map-fake">
-        <a href="/reports/Jonava+District+Municipality+Administration?zoom=14&lat=55.06818&lon=24.27485">
-            <img src="/cobrands/fmsj/images/jonava-fake-map.jpeg" alt="Jonava Map" />
-        </a>
-    </div>
+    [% IF map %]
+        [% PROCESS "maps/${map.type}.html" %]
+        [% map_html | safe %]
+        </div><!-- closes #map_box from map_html -->
+    [% ELSE %]
+        <div class="map-fake">
+            <a href="/reports/Jonava+District+Municipality+Administration?zoom=14&lat=55.06818&lon=24.27485">
+                <img src="/cobrands/fmsj/images/jonava-fake-map.jpeg" alt="Jonava Map" />
+            </a>
+        </div>
+    [% END %]
 
     [% TRY %][% INCLUDE "front/pre-recent.html" %][% CATCH file %][% END %]
 
