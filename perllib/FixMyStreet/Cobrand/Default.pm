@@ -840,13 +840,16 @@ cobrand's area_types_children type.
 sub fetch_area_children {
     my ($self, $area_ids, $body, $all_generations) = @_;
 
+    my $types = $self->area_types_children;
+    return {} if !$types || !@$types;
+
     $area_ids = [ $area_ids ] unless ref $area_ids eq 'ARRAY';
 
     my %all_children;
 
     foreach my $area_id (@$area_ids) {
         my $children = FixMyStreet::MapIt::call('area/children', $area_id,
-            type => $self->area_types_children,
+            type => $types,
             $all_generations ? (min_generation => 1) : (),
         );
         %all_children = ( %all_children, %$children );

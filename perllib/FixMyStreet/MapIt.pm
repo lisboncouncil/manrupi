@@ -3,6 +3,8 @@ package FixMyStreet::MapIt;
 use FixMyStreet;
 use mySociety::MaPit;
 
+my %_mapit_cache;
+
 sub call {
     my ($url, $params, %opts) = @_;
 
@@ -12,7 +14,15 @@ sub call {
     $opts{generation} = FixMyStreet->config('MAPIT_GENERATION')
         if !$opts{generation} && $url ne 'area' && FixMyStreet->config('MAPIT_GENERATION');
 
-    return mySociety::MaPit::call($url, $params, %opts);
+    # Cache MapIt results in-process to avoid repeated HTTP calls
+    my $cache_key = "$url/$params/" . join(',', map { "$_=$opts{$_}" } sort keys %opts);
+    if (exists $_mapit_cache{$cache_key}) {
+        return $_mapit_cache{$cache_key};
+    }
+
+    my $result = mySociety::MaPit::call($url, $params, %opts);
+    $_mapit_cache{$cache_key} = $result;
+    return $result;
 }
 
 1;

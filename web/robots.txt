@@ -1,4 +1,14 @@
+User-agent: FacebookExternalHit
+User-agent: facebookexternalhit
+User-agent: meta-externalagent
+User-agent: meta-externalfetcher
+Disallow: /
+
 User-agent: *
 Disallow: /photo/
 Disallow: /report/new
+Disallow: /around
+Disallow: /reports/
+Disallow: /rss/
+Disallow: /alert/
 Crawl-delay: 3

@@ -41,18 +41,33 @@ sub _translate {
     return $translated if $translated;
 
     if (ref $schema) {
-        my $translation = $schema->resultset('Translation')->find({
-            lang => $lang,
-            tbl => $table,
-            object_id => $id,
-            col => $col
-        });
-        $fallback = $translation->msgstr if $translation;
+        my $all_trans = _translation_cache($schema);
+        my $key = "$table.$id.$col.$lang";
+        if (exists $all_trans->{$key}) {
+            $fallback = $all_trans->{$key};
+        }
     } else {
         warn "Can't use translation on this call to $table.$col";
     }
     $self->translated->{$col}{$lang} = $fallback;
     return $fallback;
+}
+
+sub _translation_cache {
+    my ($schema) = @_;
+    my $cache = $schema->cache;
+    return $cache->{_translations} if $cache->{_translations};
+
+    my %trans;
+    my $rs = $schema->resultset('Translation')->search(undef, {
+        result_class => 'DBIx::Class::ResultClass::HashRefInflator',
+    });
+    while (my $row = $rs->next) {
+        my $key = "$row->{tbl}.$row->{object_id}.$row->{col}.$row->{lang}";
+        $trans{$key} = $row->{msgstr};
+    }
+    $cache->{_translations} = \%trans;
+    return $cache->{_translations};
 };
 
 # These next two functions (translation_for and and_translation_for) are
