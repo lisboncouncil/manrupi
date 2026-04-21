@@ -72,9 +72,8 @@ msgid "%s admin:"
 msgstr "%s administravimas:"
 
 #: templates/web/base/status/stats.html:26
-#, fuzzy
 msgid "%s bodies"
-msgstr "Institucijos"
+msgstr "%s institucijos"
 
 #: templates/web/base/status/stats.html:24
 msgid "%s confirmed alerts, %s unconfirmed"
@@ -158,15 +157,13 @@ msgstr "(atlikta)"
 
 #: templates/web/base/admin/reports/_edit_main.html:183
 #: templates/web/base/admin/reports/_edit_main.html:187
-#, fuzzy
 msgid "(for this report)"
-msgstr "Koreguoti šį pranešimą"
+msgstr "(šiam pranešimui)"
 
 #: templates/web/base/admin/update_edit.html:33
 #: templates/web/base/admin/update_edit.html:36
-#, fuzzy
 msgid "(for this update)"
-msgstr "Koreguoti atnaujinimą"
+msgstr "(šiam atnaujinimui)"
 
 #: templates/web/base/around/intro.html:2
 msgid "(like graffiti, fly tipping, broken paving slabs, or street lighting)"
@@ -191,9 +188,8 @@ msgid "(optional)"
 msgstr "(pasirinktinai)"
 
 #: templates/web/base/report/_item_small.html:33
-#, fuzzy
 msgid "(sent to all)"
-msgstr "(išsiųsta į abu)"
+msgstr "(išsiųsta visiems)"
 
 #: templates/web/base/report/_item_small.html:34
 msgid "(sent to both)"
@@ -205,13 +201,12 @@ msgid "-- Pick a category --"
 msgstr "-- Išsirinktite kategorija --"
 
 #: templates/web/base/report/new/category_extras_fields.html:38
-#, fuzzy
 msgid "-- Pick an option --"
-msgstr "-- Išsirinktite kategorija --"
+msgstr "-- Pasirinkite variantą --"
 
 #: templates/web/base/contact/enquiry/index.html:35
 msgid "-- Please select --"
-msgstr ""
+msgstr "-- Prašome pasirinkti --"
 
 #: templates/web/base/admin/response_templates_select.html:3
 msgid "--Choose a template--"
@@ -325,9 +320,8 @@ msgid "Add a contact using the form below."
 msgstr "Pridėkite kontaktą naudodami žemiau pateikta anketa."
 
 #: templates/web/base/admin/bodies/contact-form.html:20
-#, fuzzy
 msgid "Add another parent category"
-msgstr "Pridėti naują kategoriją"
+msgstr "Pridėti dar vieną pagrindinę kategoriją"
 
 #: templates/web/base/admin/bodies/form.html:154
 #: templates/web/base/admin/bodies/index.html:78
@@ -341,9 +335,8 @@ msgid "Add email address"
 msgstr "Pridėti el. pašto adresą"
 
 #: templates/web/base/admin/reportextrafields/index.html:24
-#, fuzzy
 msgid "Add extra fields"
-msgstr "Pridėti el. pašto adresą"
+msgstr "Pridėti papildomus laukus"
 
 #: templates/web/base/admin/extra-metadata-form.html:11
 msgid "Add field"
@@ -359,9 +352,8 @@ msgid "Add new category"
 msgstr "Pridėti naują kategoriją"
 
 #: templates/web/base/admin/extra-metadata-item.html:90
-#, fuzzy
 msgid "Add option"
-msgstr "(pasirinktinai)"
+msgstr "Pridėti parinktį"
 
 #: templates/web/base/auth/change_phone.html:2
 #: templates/web/base/auth/change_phone.html:7
@@ -468,17 +460,15 @@ msgid "All Reports"
 msgstr "Visi Pranešimai"
 
 #: templates/web/zurich/admin/stats/index.html:47
-#, fuzzy
 msgid "All Reports as CSV"
-msgstr "Visi Pranešimai"
+msgstr "Visi Pranešimai kaip CSV"
 
 #: templates/web/base/admin/category-multiselect.html:5
 #: templates/web/base/admin/responsepriorities/index.html:26
 #: templates/web/base/admin/templates/view.html:19
 #: templates/web/fixmystreet.com/reports/summary.html:80
-#, fuzzy
 msgid "All categories"
-msgstr "Kategorijos"
+msgstr "Visos kategorijos"
 
 #: templates/web/base/admin/reportextrafields/edit.html:26
 #, fuzzy
@@ -486,9 +476,8 @@ msgid "All cobrands"
 msgstr "Cobrand"
 
 #: templates/web/base/admin/reportextrafields/edit.html:47
-#, fuzzy
 msgid "All languages"
-msgstr "Sena būklė"
+msgstr "Visos kalbos"
 
 #: templates/web/base/navigation/_all_reports.html:0
 #: templates/web/base/navigation/_all_reports.html:12
@@ -522,7 +511,7 @@ msgstr ""
 
 #: templates/web/base/my/anonymize.html:20
 msgid "Alternatively, we can hide your name on <strong>all of your reports and updates</strong> across the site:"
-msgstr "Arba galime paslėpti jūsų vardą ir pavardę <strong>visose jūsų ataskaitose ir atnaujinimuose</strong> visoje svetainėje:"
+msgstr "Arba galime paslėpti jūsų vardą ir pavardę <strong>visose jūsų pranešimuose ir atnaujinimuose</strong> visoje svetainėje:"
 
 #: templates/web/base/admin/bodies/open311-form-fields.html:165
 msgid "Always fetch all problems"
@@ -534,9 +523,8 @@ msgid "An email address or service ID (Open311 or similar)."
 msgstr ""
 
 #: templates/web/base/admin/bodies/contact-form.html:38
-#, fuzzy
 msgid "An email address."
-msgstr "Pridėti el. pašto adresą"
+msgstr "El. pašto adresas."
 
 #: templates/web/base/questionnaire/index.html:35
 msgid "An update marked this problem as fixed."
@@ -602,33 +590,28 @@ msgid "As this is a staging site and %s is false, reports made on this site will
 msgstr "Šiuo metu puslapis ir %s yra neveikiantis, sukurti pranešimai bus išsiųsti problemos siuntėjui, o ne kontaktui pateiktame pranešimo kategorijoje."
 
 #: templates/web/fixmystreet.com/report/_cobrand_ref_oxfordshire.html:8
-#, fuzzy
 msgid "Asset ID:"
-msgstr "Pranešti ID:"
+msgstr "Turto ID:"
 
 #: templates/web/base/reports/_bulk-assign.html:12
 msgid "Assign"
 msgstr "Priskirti"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:784
-#, fuzzy
 msgid "Assign problem reports to users"
-msgstr "%s pranešta problema"
+msgstr "Priskirti problemų pranešimus naudotojams"
 
 #: templates/web/base/admin/users/index.html:73
-#, fuzzy
 msgid "Assign selected to role:"
-msgstr "Priskirta:"
+msgstr "Priskirti pasirinktus vaidmeniui:"
 
 #: templates/web/base/reports/_bulk-assign.html:7
-#, fuzzy
 msgid "Assign to"
-msgstr "Priskirti:"
+msgstr "Priskirti"
 
 #: templates/web/zurich/admin/reports/edit.html:203
-#, fuzzy
 msgid "Assign to competent body:"
-msgstr "Priskirti išoriniai institucijai:"
+msgstr "Priskirti kompetentingai institucijai:"
 
 #: templates/web/zurich/admin/reports/edit.html:162
 #: templates/web/zurich/admin/stats/index.html:57
