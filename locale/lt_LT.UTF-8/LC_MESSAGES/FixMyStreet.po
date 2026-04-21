@@ -631,14 +631,12 @@ msgid "Assign to:"
 msgstr "Priskirti:"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:790
-#, fuzzy
 msgid "Assign users to areas"
-msgstr "Priskirta"
+msgstr "Priskirti naudotojus sritims"
 
 #: templates/web/base/admin/users/form.html:119
-#, fuzzy
 msgid "Assigned categories only"
-msgstr "Priskirta"
+msgstr "Tik priskirtos kategorijos"
 
 #: templates/web/base/admin/problem_row.html:31
 msgid "Assigned to"
@@ -661,14 +659,12 @@ msgid "Authorised staff users can be associated with the categories in which the
 msgstr ""
 
 #: templates/web/base/admin/templates/view.html:9
-#, fuzzy
 msgid "Auto Response"
-msgstr "Viešas atsakymas:"
+msgstr "Automatinis atsakymas"
 
 #: templates/web/base/admin/templates/edit.html:78
-#, fuzzy
 msgid "Auto-response:"
-msgstr "Viešas atsakymas:"
+msgstr "Automatinis atsakymas:"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:777
 msgid "Automatically populate report subject/detail"
@@ -705,9 +701,8 @@ msgid "Background Colour"
 msgstr ""
 
 #: templates/web/base/admin/users/form.html:35
-#, fuzzy
 msgid "Ban user"
-msgstr "Pridėti vartotoją"
+msgstr "Užblokuoti naudotoją"
 
 #: templates/web/fixmystreet.com/report/new/inline-tips.html:4
 msgid "Be polite"
@@ -801,9 +796,8 @@ msgid "Category"
 msgstr "Kategorija"
 
 #: templates/web/base/dashboard/index.html:133
-#, fuzzy
 msgid "Category and State"
-msgstr "Kategorija"
+msgstr "Kategorija ir statusas"
 
 #: perllib/FixMyStreet/App/Controller/Admin/Reports.pm:411
 msgid "Category changed from ‘%s’ to ‘%s’"
@@ -831,9 +825,8 @@ msgid "Change"
 msgstr "Keisti"
 
 #: templates/web/base/report/inspect/information.html:80
-#, fuzzy
 msgid "Change asset"
-msgstr "Pakeisti slaptažodį"
+msgstr "Pakeisti turtą"
 
 #: templates/web/base/auth/change_email.html:2
 #: templates/web/base/auth/change_email.html:3
@@ -848,14 +841,12 @@ msgstr "Pakeisti slaptažodį"
 
 #: templates/web/base/auth/change_phone.html:2
 #: templates/web/base/auth/change_phone.html:3
-#, fuzzy
 msgid "Change phone number"
-msgstr "Naujas telefono numeris:"
+msgstr "Pakeisti telefono numerį"
 
 #: templates/web/base/auth/generate_token.html:60
-#, fuzzy
 msgid "Change two-factor authentication"
-msgstr "Aktyvuoti dviejų faktorių autentifikaciją"
+msgstr "Keisti dviejų faktorių autentifikaciją"
 
 #: templates/web/fixmystreet.com/report/new/inline-tips.html:3
 msgid "Check <a href=\"/about/house-rules\" target=\"_blank\">what’s acceptable</a>"
@@ -1008,9 +999,8 @@ msgid "Confirm account"
 msgstr "Patvirtinti paskyrą"
 
 #: templates/web/base/report/form/user_loggedout_password.html:27
-#, fuzzy
 msgid "Confirm by email instead, providing a new password at that point. When you confirm, your password will be updated."
-msgstr "Vietoj to prisijunkite el. paštu, nurodydami naują slaptažodį. Kai paspausite nuorodą el. laiške, jūsų slaptažodis bus atnaujintas."
+msgstr "Vietoj to patvirtinkite el. paštu, tuo pačiu metu nurodydami naują slaptažodį. Kai patvirtinsite, jūsų slaptažodis bus atnaujintas."
 
 #: templates/web/base/questionnaire/creator_fixed.html:1
 #: templates/web/base/tokens/confirm_problem.html:1
