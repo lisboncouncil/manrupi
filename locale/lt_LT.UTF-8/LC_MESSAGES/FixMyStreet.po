@@ -499,7 +499,7 @@ msgstr "Sena būklė"
 
 #: templates/web/base/reports/index.html:25
 msgid "All time"
-msgstr "Visą laiką"
+msgstr "Per visą laikotarpį"
 
 #: templates/web/base/admin/bodies/contact-form.html:124
 msgid "Allow anonymous reports on this category"
@@ -879,7 +879,7 @@ msgid "Choose location, pan and zoom to adjust"
 msgstr "Pasirinkite vietą ir priartinkite, kad galėtumėte koreguoti"
 
 msgid "Choose your password"
-msgstr "Pasirinkite savo slaptažodį"
+msgstr "Susikurkite savo slaptažodį"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:95
@@ -1128,7 +1128,7 @@ msgstr "Sukurti pranešimą"
 
 #: templates/web/base/auth/create.html:2 templates/web/base/auth/create.html:7
 msgid "Create an account"
-msgstr "Susikurti paskyrą"
+msgstr "Sukurti paskyrą"
 
 #: templates/web/base/admin/bodies/contact-form.html:205
 #: templates/web/zurich/admin/bodies/contact-form.html:51
@@ -1168,7 +1168,7 @@ msgid "Create template"
 msgstr "Sukurti šabloną"
 
 msgid "Create your account"
-msgstr "Susikurti paskyrą"
+msgstr "Sukurti paskyrą"
 
 #: templates/web/base/admin/problem_row.html:41
 #: templates/web/base/dashboard/status.html:23
@@ -1451,7 +1451,7 @@ msgstr "Pranešimo juodraštis"
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:74
 msgid "Drag photos here or <u>browse photos</u>"
-msgstr "Vilkite ir nuleiskite nuotraukas čia arba <u>peržiūrėkite nuotraukas</u>"
+msgstr "Vilkite ir įdėkite nuotraukas čia arba <u>pasirinkite nuotraukas</u>"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:81
@@ -1619,7 +1619,7 @@ msgstr "Atsiųskite man nuorodą, kad galėtumėte prisijungti"
 
 #: templates/web/base/auth/general.html:111
 msgid "Email me a link to sign in"
-msgstr "Atsiųskite man nuorodą, kad galėtumėte prisijungti"
+msgstr "Gauti prisijungimo nuorodą"
 
 #: templates/web/base/admin/users/_form_details.html:21
 msgid "Email verified:"
@@ -1787,7 +1787,7 @@ msgstr "Padidinti žemėlapį"
 #: templates/web/base/report/new/_form_labels.html:2
 #: templates/web/base/report/new/_form_labels.html:7
 msgid "Explain what’s wrong"
-msgstr "Paaiškinkite, kas negerai”"
+msgstr "Paaiškinkite, kas negerai"
 
 #: templates/web/fixmystreet.com/reports/summary.html:134
 msgid "Export CSV preview (100 rows)"
@@ -2283,7 +2283,7 @@ msgstr "5 atsakingiausios tarybos"
 
 #: templates/web/base/index-steps.html:1
 msgid "How to report a problem"
-msgstr "Kaip pranešti apie problema"
+msgstr "Kaip pranešti apie problemą:"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:43
@@ -2600,7 +2600,7 @@ msgstr ""
 
 #: templates/web/base/reports/index.html:40
 msgid "Last 7 days"
-msgstr "Paskutines 7 dienas"
+msgstr "Per paskutines 7 dienas"
 
 #: templates/web/base/admin/bodies/body.html:75
 #: templates/web/zurich/admin/bodies/body.html:16
@@ -2680,7 +2680,7 @@ msgstr "Vietiniai pranešimai"
 
 #: templates/web/base/index-steps.html:5
 msgid "Locate the problem on a map of the area"
-msgstr "Nustatytį problemos vietą žemėlapyje"
+msgstr "Pažymėkite problemos vietą žemėlapyje"
 
 #: templates/web/fixmystreet.com/reports/cobrand_stats.html:4
 msgid "Log in here."
@@ -3071,7 +3071,7 @@ msgstr "Kitas"
 
 #: templates/web/base/report/form/user.html:9
 msgid "Next:"
-msgstr "Kitas:"
+msgstr "&nbsp;"
 
 #: perllib/FixMyStreet/DB/Result/ModerationOriginalData.pm:123
 #: perllib/FixMyStreet/DB/Result/ModerationOriginalData.pm:124
@@ -3241,12 +3241,12 @@ msgstr ""
 #: templates/web/base/reports/index.html:127
 #: templates/web/fixmystreet.com/reports/summary.html:159
 msgid "Number of problems reported in each category, in the last 7 days."
-msgstr "Kiekvienoje kategorijoje praneštų problemų skaičius per pastarąsias 7 dienas."
+msgstr "Praneštų problemų skaičius kiekvienoje kategorijoje per paskutines 7 dienas."
 
 #: templates/web/base/reports/index.html:99
 #, fuzzy
 msgid "Number of problems reported in each ward, in the last 7 days."
-msgstr "Kiekvienoje kategorijoje praneštų problemų skaičius per pastarąsias 7 dienas."
+msgstr "Praneštų problemų skaičius kiekvienoje kategorijoje per paskutines 7 dienas."
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:97
@@ -3757,7 +3757,7 @@ msgstr "Įsitikinkite, kad slaptažodį sudaro bent %d simboliai"
 #: templates/web/base/report/updates-sidebar-notes.html:2
 #: templates/web/fixmystreet.com/report/updates-sidebar-notes.html:3
 msgid "Please note that updates are not sent to the council."
-msgstr "Atkreipkite dėmesį, kad naujinimai nėra siunčiama savivaldybei."
+msgstr "Atkreipkite dėmesį, kad atnaujinimai savivaldybei nėra siunčiami."
 
 #: templates/web/base/report/new/oauth_email_form.html:4
 #, fuzzy
@@ -4089,7 +4089,7 @@ msgstr ""
 #: templates/web/base/report/update-form-wrapper.html:10
 #: templates/web/base/report/update-form.html:9
 msgid "Provide an update"
-msgstr "Pateikti naujinimą"
+msgstr "Pateikti atnaujinimą"
 
 #: templates/web/base/report/update/form_user_loggedin.html:12
 msgid "Provide update as"
@@ -4443,11 +4443,11 @@ msgstr "Pranešta per %s %s %s"
 
 #: perllib/FixMyStreet/DB/Result/Problem.pm:753
 msgid "Reported via %s in the %s category anonymously at %s"
-msgstr "Pranešta per %s kategorijoje %s anonimiškai %s"
+msgstr "Pranešta per %s, kategorijoje „%s“, anonimiškai, %s"
 
 #: perllib/FixMyStreet/DB/Result/Problem.pm:775
 msgid "Reported via %s in the %s category by %s at %s"
-msgstr "Pranešta per %s kategorijoje %s - %s %s"
+msgstr "Pranešta per %s, kategorijoje „%s“ - %s, %s"
 
 #: templates/web/fixmystreet.com/reports/summary.html:90
 #: templates/web/zurich/admin/report_edit-sdm.html:38
@@ -4540,7 +4540,7 @@ msgstr ""
 
 #: templates/web/base/report/new/after_photo.html:3
 msgid "Reports with photos in them tend to get fixed more quickly"
-msgstr "Ataskaitos su nuotraukomis paprastai taisomos greičiau"
+msgstr "Pranešimai su nuotraukomis paprastai taisomos greičiau"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:40
@@ -4994,7 +4994,7 @@ msgstr "Vietoj to prisijunkite el. paštu, nurodydami naują slaptažodį. Kai p
 #: templates/web/base/auth/general.html:1
 #: templates/web/zurich/auth/general.html:1
 msgid "Sign in or create an account"
-msgstr "Prisijunkite arba susikurti paskyrą"
+msgstr "Prisijunkite arba susikurkite paskyrą"
 
 #: templates/web/base/auth/general.html:90
 msgid "Sign in with a password"
@@ -5900,6 +5900,9 @@ msgstr ""
 msgid "This is the problem"
 msgstr "Apibendrinkite problemą"
 
+msgid "This is the reporting message"
+msgstr "Tai pranešimo tekstas"
+
 #: templates/web/base/admin/templates/edit.html:43
 msgid "This is the text that will be sent to the <strong>reporting citizen</strong> in the alert email."
 msgstr ""
@@ -6061,7 +6064,7 @@ msgstr ""
 
 #: templates/web/base/reports/index.html:126
 msgid "Top 5 most used categories"
-msgstr "Top 5 populiariausios dažniausiai naudojamos kategorijos"
+msgstr "5 populiariausios dažniausiai naudojamos kategorijos"
 
 #: templates/web/base/reports/index.html:111
 msgid "Top 5 responsive councils"
@@ -6524,7 +6527,7 @@ msgid "WasteWorks config"
 msgstr "Nustatymai"
 
 msgid "We collect only the minimum amount of personal data to allow you to mange your reports. Please see our <a href=\"%s\">privacy policy</a> for more information."
-msgstr "Mes renkame tik minimalų asmens duomenų kiekį, reikalingą jums valdyti savo pranešimus. Daugiau informacijos rasite mūsų <a href=\"%s\">privatumo politikoje</a>."
+msgstr "Mes renkame tik minimalų asmens duomenų kiekį, reikalingą jūsų pranešimams valdyti. Daugiau informacijos rasite mūsų <a href=\"%s\">privatumo politikoje</a>."
 
 #: templates/web/fixmystreet.com/reports/summary.html:215
 msgid "We currently send all reports to the email addresses below."
@@ -6533,7 +6536,7 @@ msgstr ""
 #: templates/web/base/alert/choose.html:7
 #: templates/web/base/around/_error_multiple.html:6
 msgid "We found more than one match for that location."
-msgstr "Radome daugiau nei vieną šios vietos atitiktį."
+msgstr "Radome daugiau nei vieną atitikmenį šiai vietai."
 
 #: templates/web/base/around/lookup_by_ref.html:6
 #, fuzzy
@@ -6561,7 +6564,7 @@ msgstr "Mes nusiūsime ją tarybai jūsų vardu"
 #: templates/web/base/alert/choose.html:13
 #: templates/web/base/around/_error_multiple.html:20
 msgid "We show up to ten matches, please try a different search if yours is not here."
-msgstr "Rodome iki dešimties atitikmenų, pabandykite atlikti kitą paiešką, jei jūsų atitikmens čia nėra."
+msgstr "Rodome iki dešimties atitikmenų. Jei jūsų vietos nėra sąraše, pabandykite patikslinti paiešką."
 
 #: templates/web/zurich/report/new/notes.html:4
 #, fuzzy
@@ -6865,11 +6868,11 @@ msgstr ""
 #: templates/web/base/report/new/duplicate_suggestions.html:45
 #: templates/web/zurich/report/new/fill_in_details_form.html:27
 msgid "Your email"
-msgstr "Jūsų el. paštas"
+msgstr "El. pašto adresas"
 
 #: templates/web/base/auth/change_email.html:15
 msgid "Your email address"
-msgstr "Jūsų el. paštas"
+msgstr "El. pašto adresas"
 
 #: templates/web/base/auth/create.html:49
 #: templates/web/base/auth/general.html:56
@@ -7032,17 +7035,17 @@ msgstr ""
 #: templates/web/base/around/_postcode_form_examples.html:1
 #: templates/web/base/around/postcode_form.html:24
 msgid "e.g. ‘%s’ or ‘%s’"
-msgstr ""
+msgstr "pavyzdžiui: „%s“ arba „%s“"
 
 #: templates/web/base/report/new/_form_labels.html:2
 #: templates/web/base/report/new/_form_labels.html:5
 msgid "e.g. ‘10 inch pothole on Example St, near post box’"
-msgstr "pvz. „10 cm. duobė Pavyzdžio gatvėje, šalia pašto dėžutės“"
+msgstr "pvz.: „10 cm duobė Pavyzdžio gatvėje, šalia pašto dėžutės“"
 
 #: templates/web/base/report/new/_form_labels.html:2
 #: templates/web/base/report/new/_form_labels.html:9
 msgid "e.g. ‘This pothole has been here for two months and…’"
-msgstr "pvz. „Ši duobė čia buvo du mėnesius ir…“"
+msgstr "pvz.: „Ši duobė čia buvo du mėnesius ir…“"
 
 #: templates/web/base/admin/bodies/open311-form-fields.html:93
 #, fuzzy
@@ -7104,7 +7107,7 @@ msgstr "arba"
 
 #: templates/web/base/auth/general.html:7
 msgid "or <a href=\"%s\">create an account</a>"
-msgstr "arba <a href=\"%s\">susikurti paskyrą</a>"
+msgstr "arba <a href=\"%s\">susikurkite paskyrą</a>"
 
 #: templates/web/base/auth/create.html:17
 msgid "or <a href=\"%s\">sign in</a>"
