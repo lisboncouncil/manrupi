@@ -270,9 +270,8 @@ msgid "<strong>No</strong> Let me confirm my update by email"
 msgstr "<strong>Ne</strong> Leisti patvirtinti mano atnaujinimą el. paštu"
 
 #: templates/web/base/report/form/user_loggedout_by_email_heading.html:3
-#, fuzzy
 msgid "<strong>No</strong> Let me confirm my update by email/text"
-msgstr "<strong>Ne</strong> Leisti patvirtinti mano atnaujinimą el. paštu"
+msgstr "<strong>Ne</strong> Leisti patvirtinti mano atnaujinimą el. paštu arba SMS"
 
 #: templates/web/fixmystreet.com/around/location_error.html:20
 msgid "<strong>One at a time!</strong> Multiple street names in a single search can confuse us."
@@ -551,6 +550,10 @@ msgstr "Anoniminis:"
 #: templates/web/base/report/update/form_user_loggedin.html:17
 msgid "Another user"
 msgstr "Kitam vartotojui"
+
+#: templates/web/base/offline/fallback.html:35
+msgid "Anything you enter here is automatically saved for finishing and submitting when you’re back online."
+msgstr "Viskas, ką čia įvesite, automatiškai išsaugoma, kad galėtumėte baigti ir pateikti, kai vėl būsite prisijungę."
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:76
@@ -1098,9 +1101,8 @@ msgstr "Tarybos ref:"
 
 #: templates/web/base/report/_council_sent_info.html:16
 #: templates/web/base/report/_council_sent_info.html:20
-#, fuzzy
 msgid "Council ref:&nbsp;%s"
-msgstr "Tarybos ref:"
+msgstr "Tarybos ref:&nbsp;%s"
 
 #: templates/web/fixmystreet.com/about/council-dashboard.html:9
 msgid "Council stats"
@@ -1136,15 +1138,13 @@ msgid "Create category"
 msgstr "Sukurti kategoriją"
 
 #: templates/web/base/admin/sitemessage/edit.html:90
-#, fuzzy
 msgid "Create message"
-msgstr "Prašome įvesti žinutę"
+msgstr "Sukurti žinutę"
 
 #: templates/web/base/admin/responsepriorities/edit.html:41
 #: templates/web/base/admin/responsepriorities/index.html:41
-#, fuzzy
 msgid "Create priority"
-msgstr "Sukurti pranešimą"
+msgstr "Sukurti prioritetą"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:780
 #: perllib/FixMyStreet/Roles/CobrandSLWP.pm:188
@@ -1153,9 +1153,8 @@ msgstr ""
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:781
 #: perllib/FixMyStreet/Roles/CobrandSLWP.pm:189
-#, fuzzy
 msgid "Create reports/updates as the council"
-msgstr "Nepranešta savivaldybei"
+msgstr "Kurti pranešimus/atnaujinimus savivaldybės vardu"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:779
 #: perllib/FixMyStreet/Roles/CobrandSLWP.pm:187
@@ -1182,14 +1181,12 @@ msgstr ""
 
 #: perllib/FixMyStreet/App/Controller/Admin/Reports.pm:238
 #: perllib/FixMyStreet/App/Controller/Admin/Reports.pm:240
-#, fuzzy
 msgid "Created Body"
-msgstr "Sukurta"
+msgstr "Sukurta institucija"
 
 #: perllib/FixMyStreet/App/Controller/Admin/Reports.pm:233
-#, fuzzy
 msgid "Created By"
-msgstr "Sukurta"
+msgstr "Sukūrė"
 
 #: templates/web/base/admin/list_updates.html:32
 #: templates/web/base/admin/reports/_edit_main.html:55
@@ -1238,18 +1235,16 @@ msgid "Date"
 msgstr ""
 
 #: templates/web/base/dashboard/index.html:101
-#, fuzzy
 msgid "Date range"
-msgstr "Išsaugoti pakeitimus"
+msgstr "Datos intervalas"
 
 #: templates/web/base/admin/extra-metadata-item.html:73
 msgid "Datetime picker"
 msgstr ""
 
 #: templates/web/base/auth/generate_token.html:62
-#, fuzzy
 msgid "Deactivate two-factor authentication"
-msgstr "Aktyvuoti dviejų faktorių autentifikaciją"
+msgstr "Išjungti dviejų faktorių autentifikaciją"
 
 #: templates/web/zurich/admin/stats/index.html:56
 msgid "Dealt with by subdivision within 5 working days"
@@ -1275,9 +1270,8 @@ msgid "Delete template"
 msgstr "Pašalinti šabloną"
 
 #: templates/web/base/admin/manifesttheme/form.html:72
-#, fuzzy
 msgid "Delete theme"
-msgstr "Pašalinti šabloną"
+msgstr "Pašalinti temą"
 
 #: templates/web/base/admin/bodies/contact-form.html:66
 #: templates/web/base/admin/bodies/index.html:31
@@ -1296,9 +1290,8 @@ msgid "Description"
 msgstr "Aprašymas"
 
 #: templates/web/base/admin/bodies/contact-form.html:31
-#, fuzzy
 msgid "Destination"
-msgstr "Aprašymas"
+msgstr "Paskirties vieta"
 
 #: perllib/FixMyStreet/App/Controller/Report.pm:471
 msgid "Detailed information is limited to %d characters."
@@ -1368,9 +1361,8 @@ msgid "Disable reopening of reports in this category"
 msgstr ""
 
 #: templates/web/base/admin/bodies/contact-form.html:111
-#, fuzzy
 msgid "Disable updates on reports in this category"
-msgstr "Gauti problemų atnaujinimus iš %s"
+msgstr "Išjungti atnaujinimus apie pranešimus šioje kategorijoje"
 
 #: templates/web/base/admin/users/alerts.html:23
 msgid "Disabled:"
@@ -1395,9 +1387,8 @@ msgstr ""
 
 #. ("%s is the site name")
 #: templates/web/base/report/form/user_loggedout.html:5
-#, fuzzy
 msgid "Do you have a %s password?"
-msgstr "Pamiršote slaptažodį?"
+msgstr "Ar turite %s slaptažodį?"
 
 #: templates/web/fixmystreet.com/contact/unsuitable-text.html:2
 msgid "Does this report break our <a href=\"/about/house-rules\">Conditions of Use</a>? Use this form to let us know."
@@ -1471,9 +1462,8 @@ msgid "Duplicate of"
 msgstr ""
 
 #: templates/web/base/report/_inspect.html:51
-#, fuzzy
 msgid "Duplicates"
-msgstr "Šablonai"
+msgstr "Dublikatai"
 
 #: templates/web/base/admin/bodies/body.html:130
 msgid ""
@@ -1517,27 +1507,23 @@ msgid "Edit other users' permissions"
 msgstr ""
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:772
-#, fuzzy
 msgid "Edit report category"
-msgstr "Sukurti kategoriją"
+msgstr "Redaguoti pranešimo kategoriją"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:773
-#, fuzzy
 msgid "Edit report priority"
-msgstr "Pridėti/redaguoti atsakymų prioritetus"
+msgstr "Redaguoti pranešimo prioritetą"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:771
 #: perllib/FixMyStreet/Roles/CobrandSLWP.pm:185
-#, fuzzy
 msgid "Edit reports"
-msgstr "Redaguoti vartotoją %d"
+msgstr "Redaguoti pranešimus"
 
 #: templates/web/base/admin/flagged.html:51
 #: templates/web/base/admin/reports/_edit_main.html:173
 #: templates/web/base/admin/update_edit.html:38
-#, fuzzy
 msgid "Edit user"
-msgstr "Redaguoti vartotoją %d"
+msgstr "Redaguoti naudotoją"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:787
 #: perllib/FixMyStreet/Roles/CobrandSLWP.pm:192
@@ -1605,17 +1591,15 @@ msgstr "El. paštas (nebūtina)"
 
 #: templates/web/base/tokens/confirm_alert.html:8
 msgid "Email alert created"
-msgstr "Elektroninio pašto pranešimas sukurtas"
+msgstr "El. pašto pranešimas sukurtas"
 
 #: templates/web/base/tokens/confirm_alert.html:16
-#, fuzzy
 msgid "Email alert deleted"
-msgstr "Elektroninio pašto pranešimas sukurtas"
+msgstr "El. pašto pranešimas ištrintas"
 
 #: templates/web/base/auth/general.html:109
-#, fuzzy
 msgid "Email me a link or text me a code to sign in"
-msgstr "Atsiųskite man nuorodą, kad galėtumėte prisijungti"
+msgstr "Gauti prisijungimo nuorodą arba SMS kodą"
 
 #: templates/web/base/auth/general.html:111
 msgid "Email me a link to sign in"
@@ -1701,9 +1685,8 @@ msgid "End Date"
 msgstr ""
 
 #: templates/web/base/admin/sitemessage/_ooh.html:57
-#, fuzzy
 msgid "End time"
-msgstr "Visą laiką"
+msgstr "Pabaigos laikas"
 
 #: templates/web/fixmystreet.com/about/council-dashboard.html:26
 msgid "Ending in .gov.uk, or other official council domain"
@@ -1770,9 +1753,8 @@ msgid "Examples:"
 msgstr "Pavyzdžiai:"
 
 #: templates/web/base/admin/report-category.html:8
-#, fuzzy
 msgid "Existing category"
-msgstr "Sukurti kategoriją"
+msgstr "Esama kategorija"
 
 #: templates/web/base/admin/users/import.html:66
 msgid "Existing users won't be modified."
@@ -1794,9 +1776,8 @@ msgid "Export CSV preview (100 rows)"
 msgstr ""
 
 #: templates/web/base/dashboard/index.html:136
-#, fuzzy
 msgid "Export as CSV"
-msgstr "Pranešti kaip"
+msgstr "Eksportuoti CSV formatu"
 
 #: templates/web/base/admin/reports/_edit_main.html:88
 #: templates/web/base/admin/reports/_edit_waste.html:46
@@ -1808,9 +1789,8 @@ msgid "External URL"
 msgstr ""
 
 #: templates/web/base/admin/reports/_edit_main.html:90
-#, fuzzy
 msgid "External body"
-msgstr "Priskirti išoriniai institucijai:"
+msgstr "Išorinė institucija"
 
 #: templates/web/base/admin/reports/_edit_main.html:97
 #: templates/web/base/admin/templates/_external.html:10
@@ -1822,16 +1802,14 @@ msgid "External status code:"
 msgstr ""
 
 #: templates/web/base/admin/reports/_edit_main.html:92
-#, fuzzy
 msgid "External team"
-msgstr "Internal notes"
+msgstr "Išorinė komanda"
 
 #: perllib/FixMyStreet/Cobrand/Default.pm:727
 #: templates/web/base/admin/reportextrafields/edit.html:1
 #: templates/web/base/admin/reportextrafields/index.html:1
-#, fuzzy
 msgid "Extra Fields"
-msgstr "Papildomos detalės"
+msgstr "Papildomi laukai"
 
 #: templates/web/base/admin/bodies/contact-form.html:187
 #: templates/web/base/admin/reports/_edit_main.html:123
@@ -1847,9 +1825,8 @@ msgid "Extra details"
 msgstr "Papildomos detalės"
 
 #: templates/web/zurich/admin/bodies/contact-form.html:27
-#, fuzzy
 msgid "Extra fields:"
-msgstr "Papildomos detalės"
+msgstr "Papildomi laukai:"
 
 #: templates/web/base/admin/extra-metadata-item.html:38
 msgid "Extra question shown to user"
@@ -1860,9 +1837,8 @@ msgid "Failed bodies:"
 msgstr ""
 
 #: templates/web/base/contact/submit.html:13
-#, fuzzy
 msgid "Failed to send message"
-msgstr "Pridėti/redaguoti svetainės pranešimą"
+msgstr "Nepavyko išsiųsti žinutės"
 
 #: templates/web/base/admin/reportextrafields/edit.html:58
 #: templates/web/base/admin/reportextrafields/index.html:9
@@ -1916,29 +1892,24 @@ msgid "FixMyStreet Android app on Google Play"
 msgstr ""
 
 #: templates/web/fixmystreet.com/about/house-rules-cy.html:1
-#, fuzzy
 msgid "FixMyStreet Conditions of Use"
-msgstr "%s ref:&nbsp;%s"
+msgstr "FixMyStreet naudojimo sąlygos"
 
 #: templates/web/fixmystreet.com/footer_extra.html:42
-#, fuzzy
 msgid "FixMyStreet Goodies"
-msgstr "%s ref:&nbsp;%s"
+msgstr "FixMyStreet gėrybės"
 
 #: templates/web/base/admin/manifesttheme/index.html:7
-#, fuzzy
 msgid "FixMyStreet Name"
-msgstr "%s ref:&nbsp;%s"
+msgstr "FixMyStreet pavadinimas"
 
 #: templates/web/fixmystreet.com/footer_extra.html:72
-#, fuzzy
 msgid "FixMyStreet Platform"
-msgstr "%s ref:&nbsp;%s"
+msgstr "FixMyStreet platforma"
 
 #: templates/web/base/admin/manifesttheme/index.html:8
-#, fuzzy
 msgid "FixMyStreet Short Name"
-msgstr "%s ref:&nbsp;%s"
+msgstr "FixMyStreet trumpasis pavadinimas"
 
 #: templates/web/fixmystreet.com/footer_extra.html:17
 msgid "FixMyStreet app on the App Store"
@@ -2049,19 +2020,16 @@ msgid "Forgotten your password?"
 msgstr "Pamiršote slaptažodį?"
 
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:831
-#, fuzzy
 msgid "Forwarded to external body"
-msgstr "Priskirti išoriniai institucijai:"
+msgstr "Perduota išorinei institucijai"
 
 #: perllib/FixMyStreet/Cobrand/Zurich.pm:832
-#, fuzzy
 msgid "Forwarded wish to external body"
-msgstr "Priskirti išoriniai institucijai:"
+msgstr "Pranešimas perduotas išorinei institucijai"
 
 #: templates/web/fixmystreet.com/next_steps.html:28
-#, fuzzy
 msgid "Free FixMyStreet goodies for you!"
-msgstr "%s ref:&nbsp;%s"
+msgstr "Nemokamos FixMyStreet gėrybės jums!"
 
 #: templates/web/base/about/_sidebar.html:5
 #: templates/web/base/about/faq-en-gb.html:1
@@ -2193,9 +2161,8 @@ msgid "Help <strong>%s</strong> resolve your problem quicker, by providing some 
 msgstr ""
 
 #: templates/web/fixmystreet.com/next_steps.html:21
-#, fuzzy
 msgid "Help support FixMyStreet"
-msgstr "Naujos problemos FixMyStreet"
+msgstr "Paremkite FixMyStreet"
 
 #: templates/web/base/around/on_map_list_items.html:8
 msgid "Here are some other nearby reports:"
@@ -2232,9 +2199,8 @@ msgstr "Paslėpti visą pranešimą"
 
 #: templates/web/base/my/anonymize.html:1
 #: templates/web/base/my/anonymize.html:2
-#, fuzzy
 msgid "Hide my name"
-msgstr "Paslėpti mano vardą"
+msgstr "Paslėpti mano vardą ir pavardę"
 
 #: templates/web/base/my/anonymize.html:21
 msgid "Hide my name everywhere"
@@ -2257,7 +2223,6 @@ msgid "Hide pins"
 msgstr "Paslėpti smeigtukus"
 
 #: templates/web/base/admin/bodies/contact-form.html:95
-#, fuzzy
 msgid "Hide reports made in this category"
 msgstr "Paslėpti šioje kategorijoje pateiktus pranešimus"
 
@@ -2268,7 +2233,6 @@ msgstr "Pilnai paslėpti atnaujinimą?"
 #: templates/web/base/report/_report_meta_info.html:3
 #: templates/web/base/report/_update_state.html:16
 #: templates/web/fixmystreet.com/report/_report_meta_info.html:6
-#, fuzzy
 msgid "Hide your name?"
 msgstr "Paslėpti savo vardą?"
 
@@ -2277,9 +2241,8 @@ msgid "History"
 msgstr "Istorija"
 
 #: templates/web/fixmystreet.com/reports/summary.html:143
-#, fuzzy
 msgid "How responsive is %s?"
-msgstr "5 atsakingiausios tarybos"
+msgstr "Kiek atsakinga yra %s?"
 
 #: templates/web/base/index-steps.html:1
 msgid "How to report a problem"
@@ -2487,14 +2450,12 @@ msgid "Illegal feed selection"
 msgstr "Neteisėtas srauto pasirinkimas"
 
 #: templates/web/base/admin/users/import.html:15
-#, fuzzy
 msgid "Import users"
-msgstr "Pranešti apie piktnaudžiavimą"
+msgstr "Importuoti naudotojus"
 
 #: templates/web/fixmystreet.com/report/new/unresponsive_body.html:5
-#, fuzzy
 msgid "Important message"
-msgstr "Prašome įvesti žinutę"
+msgstr "Svarbi žinutė"
 
 #: templates/web/base/admin/flagged.html:39
 msgid "In abuse table?"
@@ -2550,9 +2511,8 @@ msgid "Internal data set by Open311"
 msgstr ""
 
 #: templates/web/base/admin/extra-metadata-option.html:6
-#, fuzzy
 msgid "Internal key"
-msgstr "Internal notes"
+msgstr "Vidinis raktas"
 
 #: templates/web/zurich/admin/list_updates.html:35
 msgid "Internal notes"
@@ -3447,6 +3407,11 @@ msgstr "Pranešta:"
 #: templates/web/zurich/report/new/fill_in_details_form.html:39
 msgid "Phone number"
 msgstr "Telefono numeris"
+
+#: templates/web/base/report/form/user_loggedout_by_email.html:12
+#: templates/web/base/report/new/form_user_loggedin.html:57
+msgid "Phone number (optional)"
+msgstr "Telefono numeris (nebūtina)"
 
 #: perllib/FixMyStreet/Roles/ConfirmValidation.pm:30
 msgid "Phone numbers are limited to %s characters in length."
@@ -4551,6 +4516,10 @@ msgstr "Jei reikia perkelti, tada spausti Tęsti"
 msgid "Reposition report here"
 msgstr "Perkelti pranešimą čia"
 
+#: templates/web/base/maps/_map_instructions.html:30
+msgid "Reposition<br>report here"
+msgstr "Perkelti<br>pranešimą čia"
+
 #: templates/web/fixmystreet.com/about/council-dashboard.html:40
 msgid "Request access"
 msgstr ""
@@ -5141,8 +5110,7 @@ msgid "Start a new offline report"
 msgstr "Pradėkite naują ataskaitą neprisijungus"
 
 #: templates/web/base/maps/_map_instructions.html:29
-#, fuzzy
-msgid "Start new report here"
+msgid "Start new<br>report here"
 msgstr "Pradėti naują<br>pranešimą čia"
 
 #: templates/web/base/admin/sitemessage/_ooh.html:45
@@ -6151,6 +6119,11 @@ msgstr ""
 #: templates/web/fixmystreet.com/report/_cobrand_ref_oxfordshire.html:14
 msgid "Unit type:"
 msgstr ""
+
+#: templates/web/base/report/banner.html:13
+#: templates/web/fixmystreet.com/report/banner.html:23
+msgid "Unknown"
+msgstr "Nežinoma"
 
 #: perllib/FixMyStreet/App/Controller/Rss.pm:177
 msgid "Unknown alert type"
@@ -7478,6 +7451,7 @@ msgstr[0] ""
 msgstr[1] ""
 msgstr[2] ""
 
+# Added by LC
 msgid "In collaboration with"
 msgstr "Bendradarbiaujant su"
 
@@ -7486,6 +7460,9 @@ msgstr "Jūs turite pranešimų juodraštį, išsaugotą kaip buvote atsijungę:
 
 msgid "Your existing draft reports"
 msgstr "Jūsų esami ataskaitų pranešimai"
+
+msgid "Place pin on map"
+msgstr "Padėkite smeigtuką ant žemėlapio"
 
 #~ msgid "Nearest road to the pin placed on the map (automatically generated by Bing Maps): %s"
 #~ msgstr "Artimiausia gavtė esanti šalia smeigtuko žemėlapyje (sugeneruota automatiškai naudojant Bing Maps): %s"
