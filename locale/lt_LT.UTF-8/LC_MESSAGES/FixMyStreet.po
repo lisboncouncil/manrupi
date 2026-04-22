@@ -2578,7 +2578,7 @@ msgstr "Panašu, kad šiuo metu nesate prisijungę prie interneto. Nesijaudinkit
 #: templates/web/base/contact/blurb.html:2
 #: templates/web/fixmystreet.com/contact/blurb.html:4
 msgid "It's often quickest to <a href=\"%s\">check our FAQs</a> and see if the answer is there."
-msgstr "Patikrinkite <a href=\"%s\">mūsų D.U.K</a> gal atsakymas yra ten."
+msgstr "Patikrinkite <a href=\"%s\">mūsų D.U.K</a> gal atsakymą rasite ten."
 
 #: templates/web/base/tokens/confirm_problem.html:34
 msgid "It’s on its way to the council right now."
@@ -3584,7 +3584,7 @@ msgid ""
 "Please do <strong>not</strong> report problems through this form; messages go to\n"
 "the team behind this site, not a council. To report a problem,\n"
 "please <a href=\"/\">go to the front page</a> and follow the instructions."
-msgstr "Prašome <strong>nepranešti</strong> apie problemas per šią formą; pranešimai bus siunčiami komandai, atsakingai už šią svetainę, o ne savivaldybei. Norėdami pranešti apie problemą, <a href=\"/\">eikite į pirmąjį puslapį</a> ir vadovaukitės instrukcijomis."
+msgstr "Prašome <strong>nepranešti</strong> apie problemas per šią formą, pranešimai bus siunčiami šios svetainės komandai, atsakingai už šią svetainę, o ne savivaldybei. Norėdami pranešti apie problemą, <a href=\"/\">eikite į pagrindinį puslapį</a> ir vadovaukitės pateiktomis instrukcijomis."
 
 #. ("JS")
 #: perllib/FixMyStreet/App/Controller/Admin/Bodies.pm:246
@@ -6711,7 +6711,7 @@ msgstr ""
 
 #: templates/web/base/contact/index.html:30
 msgid "You can contact technical support on <a href='mailto:%s'>%s</a>"
-msgstr "Su technine pagalba galite susisiekti adresu <a href=‘mailto:%s’>%s</a>"
+msgstr "Su technine pagalba galite susisiekti adresu: <a href=‘mailto:%s’>%s</a>"
 
 #: templates/web/fixmystreet.com/questionnaire/completed-open.html:13
 msgid "You can do this on <a href=\"%s\">WriteToThem</a>, another useful mySociety website."
