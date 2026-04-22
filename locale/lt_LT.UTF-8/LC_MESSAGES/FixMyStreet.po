@@ -2015,7 +2015,7 @@ msgstr "Follow a ward link to view only reports within that ward."
 
 #: templates/web/base/report/new/after_photo.html:4
 msgid "For best results include a close-up and a wide shot"
-msgstr "Kad rezultatai būtų geriausi, naudokite stambiu planu ir plačiu planu"
+msgstr "&nbsp;"
 
 #: templates/web/fixmystreet.com/front/footer-marketing.html:3
 msgid "For citizens"
@@ -2068,7 +2068,7 @@ msgstr "%s ref:&nbsp;%s"
 #: templates/web/base/about/faq-en-gb.html:5
 #: templates/web/fixmystreet.com/about/information-for-councils.html:1
 msgid "Frequently Asked Questions"
-msgstr "Dažniausiai Užduodami Klausimai"
+msgstr "Dažniausiai užduodami klausimai"
 
 #: templates/web/base/dashboard/heatmap.html:29
 msgid "From"
@@ -3129,11 +3129,11 @@ msgstr "Jokių kitų atnaujinimai"
 #: templates/web/base/report/form/user.html:44
 #: templates/web/base/report/form/user.html:53
 msgid "No personal details will be stored, and you will not receive updates about this report."
-msgstr ""
+msgstr "Jokie asmens duomenys nebus saugomi, ir jūs negausite atnaujinimų apie šį pranešimą."
 
 #: templates/web/base/around/on_map_list_items.html:13
 msgid "No reports to show on map, here are some nearby:"
-msgstr ""
+msgstr "Žemėlapyje nėra pranešimų, tačiau čia yra keletas netoliese esančių:"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:53
@@ -3244,9 +3244,8 @@ msgid "Number of problems reported in each category, in the last 7 days."
 msgstr "Praneštų problemų skaičius kiekvienoje kategorijoje per paskutines 7 dienas."
 
 #: templates/web/base/reports/index.html:99
-#, fuzzy
 msgid "Number of problems reported in each ward, in the last 7 days."
-msgstr "Praneštų problemų skaičius kiekvienoje kategorijoje per paskutines 7 dienas."
+msgstr "Praneštų problemų skaičius kiekvienoje apylinkėje per paskutines 7 dienas."
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:97
@@ -4352,9 +4351,8 @@ msgstr "Pranešti apie piktnaudžiavimą"
 
 #: templates/web/base/report/form/user.html:43
 #: templates/web/base/report/form/user.html:52
-#, fuzzy
 msgid "Report anonymously"
-msgstr "Pranešta anonimiškai %s"
+msgstr "Pranešti anonimiškai"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:88
@@ -5813,14 +5811,13 @@ msgstr "Naujausias atnaujinimas"
 
 #: templates/web/base/report/new/councils_text.html:4
 #: templates/web/base/report/new/councils_text.html:5
-#, fuzzy
 msgid "These will be published online for others to see, in accordance with our <a href=\"%s\">privacy policy</a>."
-msgstr "Jie bus siunčiami <strong>%s</strong>, taip pat skelbiami internete, kad su jais galėtų susipažinti kiti asmenys, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
+msgstr "Jie bus skelbiami internete, kad kiti matytų, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
 
 #: templates/web/base/report/new/councils_text_all.html:11
 #: templates/web/base/report/new/councils_text_all.html:8
 msgid "These will be sent to <strong>%s</strong> and also published online for others to see, in accordance with our <a href=\"%s\">privacy policy</a>."
-msgstr "Jie bus siunčiami <strong>%s</strong>, taip pat skelbiami internete, kad su jais galėtų susipažinti kiti asmenys, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
+msgstr "Jie bus siunčiami <strong>Jonavos rajono savivaldybės administracijai<!-- %s --></strong>, taip pat skelbiami internete, kad su jais galėtų susipažinti kiti asmenys, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
 
 #: templates/web/base/report/new/councils_text_all.html:18
 #: templates/web/base/report/new/councils_text_all.html:8
@@ -7282,28 +7279,28 @@ msgstr[1] "%d minutės"
 msgstr[2] "%d minučių"
 
 #: perllib/Utils.pm:245
-#, fuzzy, perl-format
+#, perl-format
 msgid "%d month"
 msgid_plural "%d months"
-msgstr[0] "Mėnuo"
-msgstr[1] "Mėnuo"
-msgstr[2] "Mėnuo"
+msgstr[0] "%d mėnuo"
+msgstr[1] "%d mėnesiai"
+msgstr[2] "%d mėnesių"
 
 #: perllib/FixMyStreet/App/Form/Claims.pm:1103
-#, fuzzy, perl-format
+#, perl-format
 msgid "%d photo"
 msgid_plural "%d photos"
-msgstr[0] "Rodyti nuotrauką"
-msgstr[1] "Rodyti nuotrauką"
-msgstr[2] "Rodyti nuotrauką"
+msgstr[0] "%d nuotrauka"
+msgstr[1] "%d nuotraukos"
+msgstr[2] "%d nuotraukų"
 
 #: templates/web/base/report/_support.html:6
 #, fuzzy, perl-format
 msgid "%d supporter"
 msgid_plural "%d supporters"
-msgstr[0] "Jokių rėmėjų"
-msgstr[1] "Jokių rėmėjų"
-msgstr[2] "Jokių rėmėjų"
+msgstr[0] "%d rėmėjas"
+msgstr[1] "%d rėmėjai"
+msgstr[2] "%d rėmėjų"
 
 #: perllib/Utils.pm:247
 #, perl-format
@@ -7333,9 +7330,9 @@ msgstr[2] "%s dienų"
 #, perl-format
 msgid "%s problem marked as fixed"
 msgid_plural "%s problems marked as fixed"
-msgstr[0] "%s problema pažymėta kaip nustatyta"
-msgstr[1] "%s problemos pažymėtos kaip nustatytos"
-msgstr[2] "%s problemų pažymėtų kaip nustatytų"
+msgstr[0] "%s išspręsta problema"
+msgstr[1] "%s išspręstos problemos"
+msgstr[2] "%s išspręstų problemų"
 
 #: templates/web/base/reports/index.html:45
 #, perl-format
@@ -7357,9 +7354,9 @@ msgstr[2] "%s ataskaitų"
 #, perl-format
 msgid "%s update on problems"
 msgid_plural "%s updates on problems"
-msgstr[0] "%s naujinys apie problemas"
-msgstr[1] "%s naujinimai apie problemas"
-msgstr[2] "%s naujinių apie problemas"
+msgstr[0] "%s atnaujinimas apie problemas"
+msgstr[1] "%s atnaujinimai apie problemas"
+msgstr[2] "%s atnaujinimų apie problemas"
 
 #: templates/web/base/front/stats.html:20
 #, fuzzy, perl-format
