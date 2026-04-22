@@ -1954,7 +1954,7 @@ msgstr ""
 
 #: templates/web/base/report/_council_sent_info.html:30
 msgid "FixMyStreet ref:&nbsp;%s"
-msgstr "FixMyStreet ref:&nbsp;%s"
+msgstr "FixMyStreet nuorodos Nr.:&nbsp;%s"
 
 #: templates/web/fixmystreet.com/front/footer-marketing.html:14
 msgid "FixMyStreet’s code is open source. If you’d like to contribute to it, or create a version of the site in your country, find everything you need at fixmystreet.org."
@@ -4872,7 +4872,7 @@ msgstr "Peržiūrėti problemą"
 
 #: perllib/FixMyStreet/DB/Result/Problem.pm:972
 msgid "Sent to %s %s later"
-msgstr ""
+msgstr "Persiųsta %s %s"
 
 #: templates/web/base/admin/reports/_edit_main.html:57
 #: templates/web/base/admin/reports/_edit_waste.html:19
@@ -7072,7 +7072,7 @@ msgstr ""
 
 #: perllib/Utils.pm:226
 msgid "less than a minute"
-msgstr ""
+msgstr "mažiau nei po minutės"
 
 #: templates/web/base/maps/_map_instructions.html:6
 msgid "minus"
@@ -7261,9 +7261,9 @@ msgstr[2] "%d dienų"
 #, perl-format
 msgid "%d hour"
 msgid_plural "%d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d valanda"
+msgstr[1] "%d valandos"
+msgstr[2] "%d valandų"
 
 #: templates/web/base/waste/bulky/summary.html:171
 #, perl-format
@@ -7277,9 +7277,9 @@ msgstr[2] ""
 #, perl-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d minutė"
+msgstr[1] "%d minutės"
+msgstr[2] "%d minučių"
 
 #: perllib/Utils.pm:245
 #, fuzzy, perl-format
@@ -7309,17 +7309,17 @@ msgstr[2] "Jokių rėmėjų"
 #, perl-format
 msgid "%d week"
 msgid_plural "%d weeks"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d savaitė"
+msgstr[1] "%d savaitės"
+msgstr[2] "%d savaičių"
 
 #: perllib/Utils.pm:243
 #, perl-format
 msgid "%d year"
 msgid_plural "%d years"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%d metai"
+msgstr[1] "%d metai"
+msgstr[2] "%d metų"
 
 #: templates/web/base/reports/index.html:120
 #, perl-format
@@ -7373,9 +7373,9 @@ msgstr[2] "<big>%s</big> fiksuota per pastarąjį mėnesį"
 #, perl-format
 msgid "<big>%s</big> fixed in past month"
 msgid_plural "<big>%s</big> fixed in past month"
-msgstr[0] "<big>%s</big> fiksuota per pastarąjį mėnesį"
-msgstr[1] "<big>%s</big> fiksuota per pastarąjį mėnesį"
-msgstr[2] "<big>%s</big> fiksuota per pastarąjį mėnesį"
+msgstr[0] "<big>%s</big> išspręsta per pastarąjį mėnesį"
+msgstr[1] "<big>%s</big> išspręstos per pastarąjį mėnesį"
+msgstr[2] "<big>%s</big> išspręstų per pastarąjį mėnesį"
 
 #: templates/web/base/front/stats.html:8
 #, perl-format
@@ -7389,17 +7389,17 @@ msgstr[2] "<big>%s</big> pranešimų per pastarąją savaitę"
 #, perl-format
 msgid "<big>%s</big> report recently"
 msgid_plural "<big>%s</big> reports recently"
-msgstr[0] "<big>%s</big> ataskaita paskutinė"
-msgstr[1] "<big>%s</big> ataskaitos paskutinės"
-msgstr[2] "<big>%s</big> ataskaitų paskutinės"
+msgstr[0] "<big>%s</big> naujas pranešimas"
+msgstr[1] "<big>%s</big> nauji pranešimai"
+msgstr[2] "<big>%s</big> naujų pranešimų"
 
 #: templates/web/base/front/stats.html:37
 #, perl-format
 msgid "<big>%s</big> update on reports"
 msgid_plural "<big>%s</big> updates on reports"
-msgstr[0] "<big>%s</big> atnaujinta ataskaita"
-msgstr[1] "<big>%s</big> atnaujintos ataskaitos"
-msgstr[2] "<big>%s</big> atnaujintų ataskaitų"
+msgstr[0] "<big>%s</big> pranešimo atnaujinimas"
+msgstr[1] "<big>%s</big> pranešimų atnaujinimai"
+msgstr[2] "<big>%s</big> pranešimų atnaujinimų"
 
 #: perllib/FixMyStreet/App/Form/Field/FileIdPhoto.pm:27
 #, perl-format
