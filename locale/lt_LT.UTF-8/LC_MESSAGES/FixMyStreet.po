@@ -2861,14 +2861,12 @@ msgid "Navigate to this problem"
 msgstr "Prieiti prie šios problemos"
 
 #: perllib/FixMyStreet/Geocode/Address/OSPlaces.pm:9
-#, fuzzy
 msgid "Nearest address to the pin placed on the map (from %s): %s"
-msgstr "Artimiausia gavtė esanti šalia smeigtuko žemėlapyje (sugeneruota automatiškai naudojant Bing Maps): %s"
+msgstr "Artimiausias adresas prie žemėlapyje pažymėtos vietos (iš %s): %s"
 
 #: templates/web/base/report/inspect/information.html:53
-#, fuzzy
 msgid "Nearest calculated address:"
-msgstr "Naujas el. pašto adresas:"
+msgstr "Artimiausias apskaičiuotas adresas:"
 
 #: perllib/FixMyStreet/Geocode/OSM.pm:144
 msgid "Nearest named road to the pin placed on the map (automatically generated using OpenStreetMap): %s%s"
@@ -2953,14 +2951,12 @@ msgid "New priority"
 msgstr "Prioritetas"
 
 #: templates/web/base/admin/users/alerts.html:44
-#, fuzzy
 msgid "New problems for %s"
-msgstr "Naujos problemos FixMyStreet"
+msgstr "Naujos problemos %s"
 
 #: templates/web/base/admin/users/alerts.html:42
-#, fuzzy
 msgid "New problems for <a href=\"%s\">%s</a>"
-msgstr "ar <a href=\"%s\">prisijungti</a>"
+msgstr "Naujos problemos, skirtos <a href=\"%s\">%s</a>"
 
 #: templates/web/base/admin/users/alerts.html:35
 msgid "New problems for <a href=\"%s\">%s</a> ward in <a href=\"%s\">%s</a>"
@@ -2981,7 +2977,7 @@ msgstr "Naujos problemos {{COUNCIL}} {{WARD}} rajone FixMyStreet"
 #: templates/web/base/admin/users/alerts.html:30
 #, fuzzy
 msgid "New problems near <a href=\"%s\">%s,%s</a>"
-msgstr "ar <a href=\"%s\">prisijungti</a>"
+msgstr "Naujos problemos netoli <a href=\"%s\">%s,%s</a>"
 
 #: db/alert_types.pl:26 db/alert_types.pl:30
 msgid "New problems near {{POSTCODE}} on FixMyStreet"
@@ -3932,26 +3928,23 @@ msgstr "Problema %d sukurta"
 #: templates/web/base/admin/users/log.html:54
 #, fuzzy
 msgid "Problem %s added to shortlist"
-msgstr "Įdėti į trumpajį sąrašą"
+msgstr "Problema %s pridėta į trumpąjį sąrašą"
 
 #: templates/web/base/admin/timeline.html:24
-#, fuzzy
 msgid "Problem %s confirmed"
-msgstr "Problema %d sukurta"
+msgstr "Problema %s patvirtinta"
 
 #: templates/web/base/admin/users/log.html:47
-#, fuzzy
 msgid "Problem %s created"
-msgstr "Problema %d sukurta"
+msgstr "Problema %s sukurta"
 
 #: templates/web/base/admin/users/log.html:49
-#, fuzzy
 msgid "Problem %s created on behalf of %s"
-msgstr "Problema %d sukurta"
+msgstr "Problema %s sukurta %s vardu"
 
 #: templates/web/base/admin/users/log.html:56
 msgid "Problem %s removed from shortlist"
-msgstr ""
+msgstr "Problema %s pašalinta iš trumpojo sąrašo"
 
 #: templates/web/base/admin/timeline.html:26
 msgid "Problem %s sent to council %s"
@@ -3978,9 +3971,8 @@ msgid "Problems"
 msgstr "Problemos"
 
 #: templates/web/base/alert/_list.html:25
-#, fuzzy
 msgid "Problems in an area"
-msgstr "Problemos %s rajone"
+msgstr "Problemos rajone"
 
 #: templates/web/base/report/display_tools.html:24
 msgid "Problems nearby"
@@ -4141,14 +4133,12 @@ msgstr "Šalia esančių problemų RSS srautas"
 #: perllib/FixMyStreet/Cobrand/Default.pm:943
 #: perllib/FixMyStreet/Cobrand/FiksGataMi.pm:140
 #: perllib/FixMyStreet/Cobrand/UK.pm:256
-#, fuzzy
 msgid "RSS feed of problems within %s"
-msgstr "RSS srautas %s, viduje %s rajono"
+msgstr "RSS srautas su problemomis %s rajone"
 
 #: perllib/FixMyStreet/Cobrand/UK.pm:262
-#, fuzzy
 msgid "RSS feed of problems within %s ward"
-msgstr "RSS srautas %s, viduje %s rajono"
+msgstr "RSS srautas su problemomis %s apylinkėje"
 
 #: templates/web/base/around/display_location.html:3
 #: templates/web/base/around/display_location.html:4
@@ -5196,7 +5186,7 @@ msgstr "Ar ruošiates išsiųsti klausimyną?"
 #: templates/web/zurich/admin/reports/edit.html:28
 #, fuzzy
 msgid "Street View"
-msgstr "%s ref:&nbsp;%s"
+msgstr "Gatvės vaizdas"
 
 #: templates/web/base/report/new/subcategories.html:5
 #, fuzzy
