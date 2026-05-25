@@ -978,7 +978,7 @@ msgid "Column number:"
 msgstr "Telefono numeris:"
 
 msgid "Condition of use"
-msgstr "Naudojimo sąlygos"
+msgstr "Naudojimosi sąlygos"
 
 #: perllib/FixMyStreet/App/Controller/Admin/Waste.pm:72
 msgid "Config must be a JSON object literal, not array."
