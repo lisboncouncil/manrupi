@@ -1442,7 +1442,7 @@ msgstr "Pranešimo juodraštis"
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:74
 msgid "Drag photos here or <u>browse photos</u>"
-msgstr "Vilkite ir įdėkite nuotraukas čia arba <u>pasirinkite nuotraukas</u>"
+msgstr "Vilkite ir įkelkite nuotraukas čia arba <u>pasirinkite nuotraukas</u>"
 
 #. ("JS")
 #: templates/web/base/js/translation_strings.html:81
@@ -5103,6 +5103,10 @@ msgstr "Pradėkite naują ataskaitą neprisijungus"
 msgid "Start new<br>report here"
 msgstr "Pradėti naują<br>pranešimą čia"
 
+#: templates/web/base/maps/_map_instructions.html:29
+msgid "Start new report here"
+msgstr "Pradėti naują pranešimą čia"
+
 #: templates/web/base/admin/sitemessage/_ooh.html:45
 #, fuzzy
 msgid "Start time"
@@ -5775,12 +5779,12 @@ msgstr "Jie bus skelbiami internete, kad kiti matytų, vadovaujantis mūsų <a h
 #: templates/web/base/report/new/councils_text_all.html:11
 #: templates/web/base/report/new/councils_text_all.html:8
 msgid "These will be sent to <strong>%s</strong> and also published online for others to see, in accordance with our <a href=\"%s\">privacy policy</a>."
-msgstr "Jie bus siunčiami <strong>Jonavos rajono savivaldybės administracijai<!-- %s --></strong>, taip pat skelbiami internete, kad su jais galėtų susipažinti kiti asmenys, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
+msgstr "Jie bus siunčiami <strong>Jonavos rajono savivaldybės administracijai</strong> <strong style='display:none'>( %s )</strong>, taip pat skelbiami internete, kad su jais galėtų susipažinti kiti asmenys, vadovaujantis mūsų <a href=\"%s\">privatumo politika</a>."
 
 #: templates/web/base/report/new/councils_text_all.html:18
 #: templates/web/base/report/new/councils_text_all.html:8
 msgid "These will be sent to <strong>%s</strong> but not published online."
-msgstr ""
+msgstr "Jie bus siunčiami <strong>Jonavos rajono savivaldybės administracijai</strong> <strong style='display:none'>( %s )</strong>, tačiau nebus skelbiami viešai internete."
 
 #: templates/web/base/open311/index.html:69
 msgid "This API implementation is work in progress and not yet stabilized.  It will change without warnings in the future."
@@ -6519,7 +6523,7 @@ msgstr ""
 
 #: templates/web/base/index-steps.html:11
 msgid "We send it to the council on your behalf"
-msgstr "Mes nusiūsime ją tarybai jūsų vardu"
+msgstr "Perduosime problemą tolesniam svarstymui"
 
 #: templates/web/base/alert/choose.html:13
 #: templates/web/base/around/_error_multiple.html:20
@@ -6625,7 +6629,7 @@ msgstr "Taip"
 
 #: templates/web/base/contact/form.html:33
 msgid "You are complaining that this problem report was unnecessarily moderated:"
-msgstr ""
+msgstr "Jūs skundžiatės, kad šis problemos pranešimas buvo nereikalingai moderuotas:"
 
 #: templates/web/base/offline/fallback.html:4
 msgid "You are currently offline"
